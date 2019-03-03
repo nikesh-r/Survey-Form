@@ -105,15 +105,20 @@ ul {
     }
     .label-field {
         width: 80%;
-        text-align: left;
-        margin-left: 15px;
+        text-align: center;
         display: block;
-        margin-top: 5px;
+        margin: 0px auto;
+        margin-top: 10px;
     }
     .input-field {
         width: 75%;
-        text-align: left;
-        margin-left: 15px;
+        text-align: center;
         display: block;
+        margin: 0px auto;
+        margin-top: 10px;
+    }
+    #checkbox-input > ul {
+        text-align: justify;
+        margin-left: 40%;
     }
 }
