@@ -1,0 +1,119 @@
+body {
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+h1 {
+    text-align: center;
+    margin: 40px auto;
+}
+#title {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+body > div {
+    background: #FFF;
+    width: 65%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+#description {
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+#survey-form {
+    font-family: 'Raleway', Helvetica, sans-serif;
+}
+.row {
+    padding: 5px;
+    margin-top: 10px;
+}
+.label-field {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.input-field {
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    text-align: left;
+    vertical-align: middle;
+    width: 35%;
+}
+#name {
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+#email {
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+#number {
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+#dropdown {
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+#radio-input {
+    margin: 0px;
+    padding: 0px;
+}
+#checkbox-input {
+    margin: 0px;
+    padding: 0px;
+}
+.radio {
+    margin: 7px;
+}
+.check {
+    margin: 7px;
+}
+#textarea-input {
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+ul {
+    list-style: none;
+}
+#submit {
+    height: 40px;
+    width: 100px;
+    margin: 10px 0px;
+    font-size: 16px;
+    font-family: "Raleway";
+    font-weight: 500;
+    background-color: #59ace0;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+@media only screen and (min-width: 650px) and (max-width: 800px) {
+    body > div {
+        width: 75%;
+    }
+}
+@media (max-width: 649px) {
+    body > div {
+        width: 80%;
+    }
+    .label-field {
+        width: 80%;
+        text-align: left;
+        margin-left: 15px;
+        display: block;
+        margin-top: 5px;
+    }
+    .input-field {
+        width: 75%;
+        text-align: left;
+        margin-left: 15px;
+        display: block;
+    }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">Customer Survey Form</h1>
+    <div>
+        <p id="description">Let us know how we can improve our Product by filling out this survey.</p>
+        <form id="survey-form">
+            <div class="row">
+                <label id="name-label" class="label-field">* Name:</label>
+                <input id="name" class="input-field" autofocus type="text" required placeholder="Enter your Name">
+            </div>
+            <div class="row">
+                <label id="email-label" class="label-field">* E-mail:</label>
+                <input id="email" class="input-field" type="email" required placeholder="Enter your E-mail">
+            </div>
+            <div class="row">
+                <label id="number-label" class="label-field">* Age:</label>
+                <input id="number" class="input-field" type="number" min="1" max="120" required placeholder="Enter your Age">
+            </div>
+            <div class="row">
+                <label id="dropdown-label" class="label-field">Select your profession:</label>
+                <select id="dropdown" class="input-field">
+                    <option disabled value selected>Select an option</option>
+                    <option value="doctor">Doctor</option>
+                    <option value="engineer">Engineer</option>
+                    <option value="businessman">Businessman</option>
+                    <option value="govtjob">Govt Job</option>
+                    <option value="student">Student</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="row">
+                <label id="radio-label" class="label-field">How likely will you recommend our product to your friend on a scale of 5? Choose one:</label>
+                <div id="radio-input" class="input-field">
+                    <ul>
+                        <li>
+                            <label><input name="radio-buttons" type="radio" value="1" class="radio">1</label>
+                        </li>
+                        <li>
+                            <label><input name="radio-buttons" type="radio" value="2" class="radio">2</label>
+                        </li>
+                        <li>
+                            <label><input name="radio-buttons" type="radio" value="3" class="radio">3</label>
+                        </li>
+                        <li>
+                            <label><input name="radio-buttons" type="radio" value="4" class="radio">4</label>
+                        </li>
+                        <li>
+                            <label><input name="radio-buttons" type="radio" value="5" class="radio">5</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <label id="checkbox-label" class="label-field">What factors do you keep in mind before buying a new product? (Check all that apply):</label>
+                <div id="checkbox-input" class="input-field">
+                    <ul>
+                        <li>
+                            <label><input name="check-box" type="checkbox" value="1" class="check">Price</label>
+                        </li>
+                        <li>
+                            <label><input name="check-box" type="checkbox" value="2" class="check">Usability</label>
+                        </li>
+                        <li>
+                            <label><input name="check-box" type="checkbox" value="3" class="check">Features</label>
+                        </li>
+                        <li>
+                            <label><input name="check-box" type="checkbox" value="4" class="check">Support</label>
+                        </li>
+                        <li>
+                            <label><input name="check-box" type="checkbox" value="5" class="check">Reviews</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <label id="textarea-label" class="label-field">Any comments or suggestions? Write here:</label>
+                <textarea id="textarea-input" class="input-field" rows="3" cols="30" placeholder="Enter here..."></textarea>
+            </div>
+            <div class="row">
+                <p>Thank you for completing the survey!</p>
+                <input id="submit" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
