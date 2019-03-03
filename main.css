@@ -117,8 +117,8 @@ ul {
         margin: 0px auto;
         margin-top: 10px;
     }
-    #checkbox-input > ul {
+    ul {
         text-align: justify;
-        margin-left: 40%;
+        margin-left: 35%;
     }
 }
